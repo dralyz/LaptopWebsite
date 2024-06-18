@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Quicksand&display=swap');
+
+body {
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1e3c5f
+}
+
+a {
+    font-weight: 700;
+    transition: all 0.4 ease;
+}
+
+img {
+    width: 100%;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #264c77;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #dddada
+}
+
+.nav-link:active {
+    color: #c2bfbf
+}
+
+.container2 {
+    text-align: center;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.checkmark {
+    color: #20c000;
+    font-weight: 700;
+}
+
+.star-yellow {
+    color: #eede05;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.row p {
+    padding-right: 0;
+}
+
+.star-grey {
+    color: rgb(190, 190, 190);
+    font-size: 1.2rem;
+}
+
+#home {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.form-label {
+    color: #ffffff;
+
+}
+.col-lg-4 {
+    margin-bottom: 5rem;
+}
+#contact {
+    padding-top: 3rem;
+}
+
+.btn {
+    background-color: #11245A;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #1d3a8a;
+}
+#call {
+    padding-top: 0;
+}
+
+.info {
+    font-size: 1.2rem;
+}
+
+.footer-top {
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    background-color: #ebecec;
+}
+
+@media (max-width: 960px) {
+    body, html {
+        overflow-x: hidden;
+    }
+}
